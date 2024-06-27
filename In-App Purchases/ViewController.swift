@@ -11,9 +11,9 @@ import StoreKit
 class ViewController: UIViewController, SKProductsRequestDelegate, SKPaymentTransactionObserver {
     
     enum Product: String, CaseIterable {
-        case gems = "com.plexustechnology.gems"
-        case nonadspremium = "com.plexustechnology.premium"
-        case monthlysubscription = "com.plexustechnology.monthly"
+        case gems = "com.plexustechnology.gems" // Project ID gems
+        case nonadspremium = "com.plexustechnology.premium" // Project ID non ads
+        case monthlysubscription = "com.plexustechnology.monthly" // Project ID monthly subscription
     }
 
     override func viewDidLoad() {
