@@ -1,0 +1,130 @@
+{
+  "identifier" : "304E9814",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "1",
+      "familyShareable" : false,
+      "internalID" : "A34488B5",
+      "localizations" : [
+        {
+          "description" : "Purchases 500 gems for $1.00",
+          "displayName" : "Gems",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.plexustechnology.gems",
+      "referenceName" : "Gems",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2",
+      "familyShareable" : false,
+      "internalID" : "3AA045BC",
+      "localizations" : [
+        {
+          "description" : "No Ads with Premium Content for $2.00",
+          "displayName" : "Premium Content",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.plexustechnology.premium",
+      "referenceName" : "AdsPremiumContent",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "4E6878D1",
+      "localizations" : [
+
+      ],
+      "name" : "Monthly",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "0382318F",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Monthly premium content for $4.00",
+              "displayName" : "MonthlySubscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.plexustechnology.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "MonthlySubscription",
+          "subscriptionGroupID" : "4E6878D1",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

@@ -16,6 +16,7 @@
 		BDC6221B2C2E0F7D009CDF1C /* In_App_PurchasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6221A2C2E0F7D009CDF1C /* In_App_PurchasesTests.swift */; };
 		BDC622252C2E0F7D009CDF1C /* In_App_PurchasesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC622242C2E0F7D009CDF1C /* In_App_PurchasesUITests.swift */; };
 		BDC622272C2E0F7D009CDF1C /* In_App_PurchasesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC622262C2E0F7D009CDF1C /* In_App_PurchasesUITestsLaunchTests.swift */; };
+		BDC622362C2E2360009CDF1C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC622352C2E2360009CDF1C /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		BDC622202C2E0F7D009CDF1C /* In-App PurchasesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "In-App PurchasesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC622242C2E0F7D009CDF1C /* In_App_PurchasesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = In_App_PurchasesUITests.swift; sourceTree = "<group>"; };
 		BDC622262C2E0F7D009CDF1C /* In_App_PurchasesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = In_App_PurchasesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDC622332C2E108B009CDF1C /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		BDC622352C2E2360009CDF1C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC622362C2E2360009CDF1C /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,7 @@
 				BDC622192C2E0F7D009CDF1C /* In-App PurchasesTests */,
 				BDC622232C2E0F7D009CDF1C /* In-App PurchasesUITests */,
 				BDC622012C2E0F7B009CDF1C /* Products */,
+				BDC622342C2E2360009CDF1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +108,7 @@
 				BDC622052C2E0F7B009CDF1C /* SceneDelegate.swift */,
 				BDC622072C2E0F7B009CDF1C /* ViewController.swift */,
 				BDC622092C2E0F7B009CDF1C /* Main.storyboard */,
+				BDC622332C2E108B009CDF1C /* Configuration.storekit */,
 				BDC6220C2C2E0F7C009CDF1C /* Assets.xcassets */,
 				BDC6220E2C2E0F7C009CDF1C /* LaunchScreen.storyboard */,
 				BDC622112C2E0F7C009CDF1C /* Info.plist */,
@@ -125,6 +131,14 @@
 				BDC622262C2E0F7D009CDF1C /* In_App_PurchasesUITestsLaunchTests.swift */,
 			);
 			path = "In-App PurchasesUITests";
+			sourceTree = "<group>";
+		};
+		BDC622342C2E2360009CDF1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDC622352C2E2360009CDF1C /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
